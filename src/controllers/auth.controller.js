@@ -79,7 +79,7 @@ export const signin = async (req, res, next) => {
   }
 };
 
-export const signout = async (req, res, next) => {
+export const signout =  (req, res, next) => {
   try {
     cookies.clear(res, 'token');
     
