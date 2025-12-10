@@ -764,3 +764,22 @@
 {"level":"error","message":"Error while deleting the user db.delete(...).from is not a function","service":"acquisitions-api","stack":"TypeError: db.delete(...).from is not a function\n    at deleteUser (file:///F:/acquisitions/src/services/users.service.js:85:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async deleteUserById (file:///F:/acquisitions/src/controllers/users.controller.js:156:29)","timestamp":"2025-12-10T04:30:48.822Z"}
 {"level":"error","message":"Error deleting user: db.delete(...).from is not a function","service":"acquisitions-api","timestamp":"2025-12-10T04:30:48.823Z"}
 {"level":"info","message":"::1 - - [10/Dec/2025:04:30:48 +0000] \"DELETE /api/users/8 HTTP/1.1\" 500 474 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-10T04:30:48.826Z"}
+{"level":"info","message":"User authenticated: ransikachandupa@gmail.com (admin)","service":"acquisitions-api","timestamp":"2025-12-10T04:32:47.714Z"}
+{"level":"info","message":"Deleteing user: 8","service":"acquisitions-api","timestamp":"2025-12-10T04:32:47.718Z"}
+{"level":"info","message":"User thinuka@gmail.com deleted successfully","service":"acquisitions-api","timestamp":"2025-12-10T04:32:48.355Z"}
+{"level":"info","message":"User thinuka@gmail.com deleted successfully","service":"acquisitions-api","timestamp":"2025-12-10T04:32:48.357Z"}
+{"level":"info","message":"::1 - - [10/Dec/2025:04:32:48 +0000] \"DELETE /api/users/8 HTTP/1.1\" 200 194 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-10T04:32:48.363Z"}
+{"level":"info","message":"User authenticated: ransikachandupa@gmail.com (admin)","service":"acquisitions-api","timestamp":"2025-12-10T04:33:05.171Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2025-12-10T04:33:05.172Z"}
+{"level":"info","message":"::1 - - [10/Dec/2025:04:33:05 +0000] \"GET /api/users/ HTTP/1.1\" 200 520 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-10T04:33:05.485Z"}
+{"level":"info","message":"User authenticated: ransikachandupa@gmail.com (admin)","service":"acquisitions-api","timestamp":"2025-12-10T04:34:29.445Z"}
+{"level":"info","message":"Updating user: 9","service":"acquisitions-api","timestamp":"2025-12-10T04:34:29.446Z"}
+{"level":"info","message":"User undefined updated successfully","service":"acquisitions-api","timestamp":"2025-12-10T04:34:29.845Z"}
+{"level":"info","message":"User sandeepa@gmail.com updated successfully","service":"acquisitions-api","timestamp":"2025-12-10T04:34:29.846Z"}
+{"level":"info","message":"::1 - - [10/Dec/2025:04:34:29 +0000] \"PUT /api/users/9 HTTP/1.1\" 200 205 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-10T04:34:29.847Z"}
+{"level":"info","message":"User authenticated: ransikachandupa@gmail.com (admin)","service":"acquisitions-api","timestamp":"2025-12-10T04:35:36.727Z"}
+{"level":"info","message":"Deleteing user: 6","service":"acquisitions-api","timestamp":"2025-12-10T04:35:36.728Z"}
+{"level":"info","message":"::1 - - [10/Dec/2025:04:35:36 +0000] \"DELETE /api/users/6 HTTP/1.1\" 403 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-10T04:35:36.729Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Dec/2025:11:11:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-12-10T11:11:52.179Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Dec/2025:11:11:52 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-12-10T11:11:52.243Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Dec/2025:11:11:52 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-12-10T11:11:52.330Z"}
