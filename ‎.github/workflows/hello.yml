@@ -1,0 +1,9 @@
+name: Hello World Test
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow triggered successfully!"
